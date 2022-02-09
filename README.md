@@ -1,5 +1,6 @@
 # cry-baby-detector
 
-This is to detect if my son is crying, and if he does, send me a notification through pushover.
+I'm running this code on a Raspberry Pi 4 with a cheap USB mic. You also need an account on pushover.net and the app on your smartphone. Then run something like:
+```./bin/detect.py -a api-key -u user-key```
 
-This is using torch and librosa to run spectograms and predict if he's crying.
+The code is very rough but works. I get a notification when my son is crying :)
