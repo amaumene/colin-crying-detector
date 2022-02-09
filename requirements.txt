@@ -1,0 +1,4 @@
+fastai==1.0.61
+librosa
+pyaudio
+python-pushover
